@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8644A8175115F7008A7B05 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8644AA175115F7008A7B05 /* MainWindow.xib */; };
 		F7196E9013842A5300BE747B /* LogConvertController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7196E8E13842A5300BE747B /* LogConvertController.h */; };
 		F7196E9113842A5300BE747B /* LogConvertController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7196E8F13842A5300BE747B /* LogConvertController.m */; };
 		F7196FE211C40B5300BA4491 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F79BE0AB11C159E10088D0A5 /* Sparkle.framework */; };
@@ -122,6 +123,7 @@
 		64CD0451027F05C200C69EE8 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
 		64DAAE0B02A0BDE2001FC8E1 /* RetryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetryInfo.h; sourceTree = "<group>"; };
 		64DAAE0C02A0BDE2001FC8E1 /* RetryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetryInfo.m; sourceTree = "<group>"; };
+		CE8644A9175115F7008A7B05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		F51E8DF20326721501A80003 /* AttachmentServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentServer.h; sourceTree = "<group>"; };
 		F51E8DF30326721501A80003 /* AttachmentServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentServer.m; sourceTree = "<group>"; };
 		F51E8DF6032673F001A80003 /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attachment.h; sourceTree = "<group>"; };
@@ -409,6 +411,7 @@
 				F7E66CCC1361ABC80014B3D7 /* SendWindow.nib */,
 				F7E66CC11361ABBA0014B3D7 /* MainMenu.nib */,
 				F794E5B913855BCC003FB780 /* LogConvertDialog.xib */,
+				CE8644AA175115F7008A7B05 /* MainWindow.xib */,
 			);
 			name = Nibs;
 			sourceTree = "<group>";
@@ -537,6 +540,7 @@
 				F7E66CD21361ABC80014B3D7 /* SendWindow.nib in Resources */,
 				F794E5BA13855BCC003FB780 /* LogConvertDialog.xib in Resources */,
 				F7C81E72138D7A2E00E329B5 /* Acknowledgement.pdf in Resources */,
+				CE8644A8175115F7008A7B05 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +586,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CE8644AA175115F7008A7B05 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8644A9175115F7008A7B05 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
 		F794E5B913855BCC003FB780 /* LogConvertDialog.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
